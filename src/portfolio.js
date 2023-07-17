@@ -7,27 +7,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Hazem's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Experienced AI research scientist with an 8+ years track record in the fields of eXplainable AI (XAI), autonomous driving, safety analysis, and embedded systems, with a strong focus on delivering reliable innovative solutions, in model-level and system-level contexts.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Hazem Fahmy Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://scholar.google.com/citations?user=SMq_99wAAAAJ&hl=en",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Hazem Fahmy",
+  logo_name: "Hazem Fahmy",
+  nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Experienced AI research scientist with an 8+ years track record in the fields of eXplainable AI (XAI), autonomous driving, safety analysis, and embedded systems, with a strong focus on delivering reliable innovative solutions, in model-level and system-level contexts.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1-cm12NwoyTkZqtyGLMLQw-TlNJZtPIMD/view?usp=sharing",
+  portfolio_repository: "https://github.com/hazemfahmyy/hazemfahmyy.github.io",
+  githubProfile: "https://github.com/hazemfahmyy",
 };
 
 const socialMediaLinks = [
@@ -42,45 +42,27 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/hazemfahmyy",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/hazem-fahmy/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:hazem.fahmyy92@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Gmail",
+    link: "https://orcid.org/0000-0003-1656-0291",
+    fontAwesomeIcon: "fa-orcid", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#A6CE39", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 
@@ -128,6 +110,18 @@ const skills = {
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
+        },
+        {
+          skillName: "Scikit-Learn",
+          imageSrc: "scikit.png",
+        },
+        {
+          skillName: "Azure",
+          imageSrc: "azure.png",
+        },
+        {
+          skillName: "AWS",
+          imageSrc: "aws.png",
         },
       ],
     },
