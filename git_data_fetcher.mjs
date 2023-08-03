@@ -268,7 +268,7 @@ fetch(baseUrl, {
   .then((response) => response.text())
   .then((txt) => {
     const data = JSON.parse(txt);
-    // console.log(txt);
+    console.log(txt);
     const projects = data["data"]["user"]["pinnedItems"]["nodes"];
     var newProjects = { data: [] };
     for (var i = 0; i < projects.length; i++) {
@@ -285,6 +285,7 @@ fetch(baseUrl, {
       }
       obj["languages"] = newLangobjs;
       newProjects["data"].push(obj);
+      console.log(obj);
     }
 
     console.log("Fetching the Pinned Projects Data.\n");
@@ -301,6 +302,4 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
-  );
+  .catch(console.log);
